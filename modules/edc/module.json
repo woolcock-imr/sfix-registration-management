@@ -1,8 +1,6 @@
 {
 	"modules":
 	{
-		"demographics":	{"table_id":"91000064","url":"modules/edc/task/demographics.html","name_for_search":"Demographics"},
-		"isi":			{"table_id":"91000064","url":"modules/edc/task/isi.html","name_for_search":"Insomnia severity index"},
-		"psqi":			{"table_id":"91000064","url":"modules/edc/task/psqi.html","name_for_search":"Pittsburgh sleep quality index"},
+		"registration":	{"table_id":"91000064","url":"modules/edc/task/registration.html","name_for_search":"Registration Records"}
 	}
 }

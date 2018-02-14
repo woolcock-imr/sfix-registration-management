@@ -4,13 +4,14 @@
 <script>
     function F__ID(){
 		//-------------------------------------
-        VmInclude:__PARTS__/grid/grid.v3.js
+        VmInclude:__COMPONENT__/grid/grid.v3.js
 		$('#new__ID').hide();
         //-------------------------------------
-        var fields="A,B,C";
+        var fields="Name,Email,Mobile,ISI,PSQI,Include,ISI_1a,ISI_1b,ISI_1c,ISI_2,ISI_3,ISI_4,ISI_5,ISI_1,PSQI1,PSQI2,PSQI3,PSQI4,PSQI5a,PSQI5b,PSQI5c,PSQI5d,PSQI5e,PSQI5f,PSQI5g,PSQI5h,PSQI5i,PSQI5j,PSQI5ji,PSQI6,PSQI7,PSQI8,PSQI9,PSQI10,PSQI10a,PSQI10b,PSQI10c,PSQI10d,PSQI10e,PSQI10ei,PSQIDURAT,PSQIDISTB,PSQILATEN,PSQIDAYDYS,PSQIHSE,PSQISLPQUAL,PSQIMEDS";
         _fields="_Form,"+fields+",Submit Date|DateTime,Submitted by|Author,_Delete";
         //-------------------------------------
         $('#D__ID').on('load',function(){  _set_req(); _request_data(); })
+
         //-------------------------------------
     }
 </script>
